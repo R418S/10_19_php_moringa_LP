@@ -18,15 +18,15 @@ check_session_id();
     <fieldset>
       <legend>お客様からのご感想</legend>
       <a href="kanso_read.php">一覧画面</a>
-      <a href="kanso_logout.php">logout</a>
+    <!-- ?<a href="kanso_logout.php">logout</a> -->
       <div>
-        kanso: <input type="text" name="user">
+        タイトル: <input type="text" name="title">
       </div>
       <div>
-        messages: <input type="text" name="messages">
+        レビュー: <input type="text" name="messages">
       </div>
       <div>
-        <button>submit</button>
+        <button>送信</button>
       </div>
     </fieldset>
   </form>

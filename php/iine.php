@@ -8,7 +8,7 @@ include("functions.php");
 check_session_id();
 
 $user_id = $_GET['user_id'];
-$contact_id = $_GET['kanso_id'];
+$kanso_id = $_GET['kanso_id'];
 
 
 // DB接続
